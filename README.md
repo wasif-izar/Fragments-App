@@ -1,7 +1,7 @@
 # Fragments
 
  <p align="center">
-  <img src="(https://user-images.githubusercontent.com/81978998/131830996-c4d1951b-e4bb-4206-bce1-6c79d6f21e4b.png" width="240">
+  <img src="https://user-images.githubusercontent.com/81978998/131830996-c4d1951b-e4bb-4206-bce1-6c79d6f21e4b.png" width="240">
  </p>
  <br />
  <p align="center">
