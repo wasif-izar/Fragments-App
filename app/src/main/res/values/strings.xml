@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frag_red">RED</string>
+    <string name="hint_et">Pass something to next fragment</string>
+    <string name="button_text">Go to next fragment</string>
+    <string name="frag_blue">BLUE</string>
+    <string name="frag_green">GREEN</string>
+</resources>

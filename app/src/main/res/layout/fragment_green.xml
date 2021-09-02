@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_green_light"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        tools:context=".GreenFragment">
+
+        <TextView
+            android:id="@+id/greenfrag_tv_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/frag_green"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="72sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/greenfrag_et_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="false"
+            android:ems="10"
+            android:hint="@string/hint_et"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/greenfrag_bt_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="@string/button_text"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/greenfrag_tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</layout>
